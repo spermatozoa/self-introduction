@@ -2,9 +2,39 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Apply JavaScript example</title>     
+    <title>邱秉辰的自我介紹</title>
+    <link href="style/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Courier+Prime|Noto+Serif+TC&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <button>Click me</button>
+  <body onload="ShowTime()">
+    <div class="left">
+        <img id="portrait" src="image/my-photo-resized.jpg" alt="邱秉辰的大頭貼">
+        <div class="icon">            
+            <img class="fb-icon" src='image/fb-icon.png' alt="FB圖示" onmouseover="fb_hover(this);" onmouseout="fb_unhover(this);" onclick="window.open('https://www.facebook.com/people/%E9%82%B1%E7%A7%89%E8%BE%B0/100000956594893', 'Facebook', config='height=600px,width=1200px');" align=absmiddle>  邱秉辰  
+            <img class="ig-icon" src="image/ig-icon.png" alt="IG圖示" onmouseover="ig_hover(this);" onmouseout="ig_unhover(this);" onclick="window.open('https://www.instagram.com/smazoapermto_13524/?hl=zh-tw', 'Facebook', config='height=600px,width=1200px');" align=absmiddle>  smazoapermto_13524
+            <p></p>
+            <img class="gmail-icon" src="image/gmail-icon.png" alt="Gmail圖示" onmouseover="g_hover(this);" onmouseout="g_unhover(this);" onclick="window.open('https://www.google.com/intl/zh-TW/gmail/about/#', 'Facebook', config='height=600px,width=1200px');" align=absmiddle>  showay5987@gmail.com
+        </div>    
+    </div>
+    
+    <div class='right'>
+        <div class="h1-style">
+            <h1 align="middle">關於邱秉辰</h1>
+        </div>
+        <div class=h3-style>
+        <h3>
+            <ol>
+                <li>學歷：<ul><li>清華大學資工系</li><li>臺中第一高級中學</li></ul>
+                <li>興趣：<p>騎腳踏車，打電動，弄一些跟電腦相關的東西</p></li>
+                <li>自我期許：<p>如果可以的話想找到長期甚至終生的願景</p></li>
+                <li>目前目標：<p>多出去運動，以及在不被當的情況下同時把遊戲打好</p></li>
+            </ol>
+        </h3>
+        </div>
+        <div class="time-box" align="middle">
+        <div id="showtime"></div>
+        </div>    
+    </div>
+    <script src="scripts/main.js"></script>  
   </body>
 </html>

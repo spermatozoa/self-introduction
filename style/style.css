@@ -1,0 +1,63 @@
+html{
+    font-size: 16px;
+    font-family: 'Courier Prime', monospace;
+    font-family: 'Noto Serif TC', serif;    
+    background-color: rgba(54,152,154,0.7);
+    
+}
+body{
+    position: static;
+    width: 80%;
+    height: 120%;
+    margin: 0 auto;
+    background-color: #4DCBCD;
+    padding: 0 30px 70px 30px;
+    border: 3px double black;
+}
+ol{
+    list-style-type:decimal;
+}
+.left{
+    position: relative;
+    left: 100px;
+}
+#portrait{    
+    position: relative;
+    width: 295px;
+    height: 391px;
+}
+.icon{    
+    position: relative;
+    top: 20px;
+}
+.fb-icon, .ig-icon{
+    width: 72px;
+    height: 72px;
+}
+.gmail-icon{
+    width: 81px;
+    height: 62px;
+}
+.right{
+    position: absolute;
+    top: 0px;
+    left: 700px;
+}
+.h1-style{
+     border: 3px double black;
+     background-color:#4AD3DA;
+     font-size: 20px;
+     padding-right: 30px;
+    margin-top: 20px;
+}
+.h3-style{
+     border: 3px double black;
+     background-color:#4AD3DA;
+     padding-right: 30px;
+     padding-bottom: 10px;
+}
+.time-box{
+    position: relative;
+    top: 20px;
+    font-size=12px;    
+}
